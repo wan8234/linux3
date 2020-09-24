@@ -5,10 +5,10 @@ second=$2
 
 if [ $first -le 0 ]
 then
-	echo "Less than 0"	
+	echo "Less than 1"	
 elif [ $second -le 0 ]
 then
-	echo "Less than 0"
+	echo "Less than 1"
 else
 	for i in $(seq 1 $first)
 	do
