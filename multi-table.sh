@@ -3,10 +3,10 @@
 first=$1
 second=$2
 
-if [ $first -lt 0 ]
+if [ $first -le 0 ]
 then
 	echo "Less than 0"	
-elif [ $second -lt 0 ]
+elif [ $second -le 0 ]
 then
 	echo "Less than 0"
 else
